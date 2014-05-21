@@ -1,0 +1,387 @@
+.rendered-markdown img{
+    max-width: 100%;
+}
+
+code, tt {
+    font-family: Inconsolata,monospace;
+    font-size: 0.85em;
+    white-space: pre-wrap;
+    background: #f1f0ea;
+    border: 1px solid #dddbcc;
+    border-radius: 2px;
+    padding: 1px 3px;
+}
+
+/*Code mirror styles started*/
+
+.CodeMirror-scroll {
+    overflow: auto;
+}
+
+.CodeMirror-lines {
+    padding: 4px 0;
+}
+
+.CodeMirror pre {
+    padding: 0 4px;
+}
+
+.CodeMirror-scrollbar-filler {
+    background-color: white;
+}
+
+.CodeMirror-gutters {
+    border-right: 1px solid #ddd;
+    background-color: #f7f7f7;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid black;
+    z-index: 3;
+}
+
+.CodeMirror div.CodeMirror-secondarycursor {
+    border-left: 1px solid silver;
+}
+
+.cm-tab {
+    display: inline-block;
+}
+
+.cm-s-default .cm-keyword {
+    color: #708;
+}
+
+.cm-s-default .cm-atom {
+    color: #219;
+}
+
+.cm-s-default .cm-number {
+    color: #164;
+}
+
+.cm-s-default .cm-def {
+    color: #00f;
+}
+
+.cm-s-default .cm-variable {
+    color: black;
+}
+
+.cm-s-default .cm-variable-2 {
+    color: #05a;
+}
+
+.cm-s-default .cm-variable-3 {
+    color: #085;
+}
+
+.cm-s-default .cm-property {
+    color: black;
+}
+
+.cm-s-default .cm-operator {
+    color: black;
+}
+
+.cm-s-default .cm-comment {
+    color: #a50;
+}
+
+.cm-s-default .cm-string {
+    color: #a11;
+}
+
+.cm-s-default .cm-string-2 {
+    color: #f50;
+}
+
+.cm-s-default .cm-meta {
+    color: #555;
+}
+
+.cm-s-default .cm-error {
+    color: #f00;
+}
+
+.cm-s-default .cm-qualifier {
+    color: #555;
+}
+
+.cm-s-default .cm-builtin {
+    color: #30a;
+}
+
+.cm-s-default .cm-bracket {
+    color: #997;
+}
+
+.cm-s-default .cm-tag {
+    color: #170;
+}
+
+.cm-s-default .cm-attribute {
+    color: #00c;
+}
+
+.cm-s-default .cm-header {
+    color: blue;
+}
+
+.cm-s-default .cm-quote {
+    color: #090;
+}
+
+.cm-s-default .cm-hr {
+    color: #999;
+}
+
+.cm-s-default .cm-link {
+    color: #00c;
+}
+
+.cm-negative {
+    color: #d44;
+}
+
+.cm-positive {
+    color: #292;
+}
+
+.cm-header,.cm-strong {
+    font-weight: bold;
+}
+
+.cm-em {
+    font-style: italic;
+}
+
+.cm-link {
+    text-decoration: underline;
+}
+
+.cm-invalidchar {
+    color: #f00;
+}
+
+.CodeMirror {
+    line-height: 1;
+    position: relative;
+    overflow: hidden;
+    background: white;
+    color: black;
+}
+
+.CodeMirror-scroll {
+    margin-bottom: -30px;
+    margin-right: -30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    height: 100%;
+    outline: none;
+    position: relative;
+}
+
+.CodeMirror-sizer {
+    position: relative;
+}
+
+.CodeMirror-vscrollbar,.CodeMirror-hscrollbar,.CodeMirror-scrollbar-filler {
+    position: absolute;
+    z-index: 6;
+    display: none;
+}
+
+.CodeMirror-vscrollbar {
+    right: 0;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.CodeMirror-hscrollbar {
+    bottom: 0;
+    left: 0;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.CodeMirror-scrollbar-filler {
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+}
+
+.CodeMirror-gutters {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-bottom: 30px;
+    z-index: 3;
+}
+
+.CodeMirror-lines {
+    cursor: text;
+}
+
+.CodeMirror pre {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-width: 0;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+    white-space: pre;
+    word-wrap: normal;
+    line-height: inherit;
+    color: inherit;
+    z-index: 2;
+    position: relative;
+    overflow: visible;
+}
+
+.CodeMirror-wrap pre {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: normal;
+}
+
+.CodeMirror-wrap .CodeMirror-scroll {
+    overflow-x: hidden;
+}
+
+.CodeMirror-measure {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.CodeMirror-measure pre {
+    position: static;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    position: absolute;
+    visibility: hidden;
+    border-right: none;
+    width: 0;
+}
+
+.CodeMirror-focused div.CodeMirror-cursor {
+    visibility: visible;
+}
+
+.CodeMirror-selected {
+    background: #d9d9d9;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: #d7d4f0;
+}
+
+.CodeMirror span {
+    *vertical-align: text-bottom;
+}
+
+@media print {
+    .CodeMirror div.CodeMirror-cursor {
+        visibility: hidden;
+    }
+}
+
+.entry-markdown-content .CodeMirror {
+    font-family: Inconsolata,monospace;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    color: #3c4043;
+}
+
+.entry-markdown-content .CodeMirror .CodeMirror-focused,.entry-markdown-content .CodeMirror .CodeMirror-selected {
+    color: #242628;
+    background: #b3d5f3;
+    text-shadow: none;
+}
+
+.entry-markdown-content .CodeMirror ::selection {
+    color: #242628;
+    background: #b3d5f3;
+    text-shadow: none;
+}
+
+.entry-markdown-content .CodeMirror-lines,.entry-preview-content {
+    padding: 55px 0 25px 0;
+}
+
+.entry-preview-content{
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+
+.entry-markdown-content .cm-header {
+    color: #000;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+.entry-markdown-content .cm-variable-2,.entry-markdown-content .cm-variable-3,.entry-markdown-content .cm-keyword {
+    color: #3c4043;
+}
+
+.entry-markdown-content .cm-string,.entry-markdown-content .cm-strong,.entry-markdown-content .cm-link,.entry-markdown-content .cm-comment,.entry-markdown-content .cm-quote,.entry-markdown-content .cm-number,.entry-markdown-content .cm-atom,.entry-markdown-content .cm-tag {
+    color: #000;
+    font-weight: bold;
+}
+
+
+/*Floating header style*/
+.floatingheader {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 400;
+    height: 40px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #aaa9a2;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff),color-stop(25%, #fff),color-stop(100%, rgba(255,255,255,0.9)));
+    background-image: -webkit-linear-gradient(top, #fff 0%,#fff 25%,rgba(255,255,255,0.9) 100%);
+    background-image: linear-gradient(to bottom,#fff 0%,#fff 25%,rgba(255,255,255,0.9) 100%);
+}
+
+.floatingheader button,.floatingheader .button {
+    display: inline-block;
+    font-size: 10px;
+    min-height: 20px;
+    height: 20px;
+    padding: 3px 4px;
+    vertical-align: top;
+}
+
+.floatingheader button.button-back,.floatingheader .button.button-back {
+    position: relative;
+    top: -2px;
+    left: 3px;
+    display: none;
+    padding: 0 6px 0 3px;
+}
+
+.floatingheader button.button-back:active,.floatingheader .button.button-back:active {
+    box-shadow: none;
+}
+
+.floatingheader button.button-back:before,.floatingheader .button.button-back:before {
+    left: -8px;
+    border-width: 10px 8px 10px 0;
+}
