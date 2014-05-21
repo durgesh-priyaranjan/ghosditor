@@ -24,7 +24,8 @@
     "grunt-contrib-coffee": "~0.10.1",
     "grunt-symbolic-link": "^0.3.1",
     "node-uuid": "^1.4.1",
-    "imagemagick": "^0.1.3"
+    "imagemagick": "^0.1.3",
+    "timeplan": "^1.0.0"
   },
   "scripts": {
     "start": "node app.js",

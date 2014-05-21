@@ -1,6 +1,6 @@
 # [Ghosditor](https://github.com/durgesh-priyaranjan/ghosditor)
 
-----
+
 ### Background
 
 
@@ -12,11 +12,9 @@ A lot of markdown editors are present with live preview, how is [Ghost](http://g
 
 **Ghosditor** is an attempt to create a similar standalone markdown editor from the open source [repo of Ghost](https://github.com/tryghost/Ghost) itself.
 
-The original attempt to extact out editor from [Ghost]() was done by [Tim Badolato](https://github.com/timsayshey) which can be found [here](https://github.com/timsayshey/Ghost-Markdown-Editor).
+The original attempt to extract out editor from [Ghost]() was done by [Tim Badolato](https://github.com/timsayshey) which can be found [here](https://github.com/timsayshey/Ghost-Markdown-Editor).
 
-----
+
 ### Demo
 
 Live demo can be found [here](http://ghosditor.herokuapp.com/) with image upload and image placeholder. Its a [node.js](http://nodejs.org/) app built over [sails.js](http://nodejs.org/).
-
-----
