@@ -1,4 +1,4 @@
-# [Ghosditor](https://github.com/durgesh-priyaranjan/ghosditor)
+# [Ghosditor](https://github.com/durgesh-priyaranjan/ghosditor): Ghost Markdown Editor
 
 
 ### Background
