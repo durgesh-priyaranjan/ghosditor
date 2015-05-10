@@ -15,7 +15,7 @@
  * 
  *
  * The same command-line arguments are supported, e.g.:
- * `node app.js --silent --port=80 --prod`
+ * `node app.js --silent --port=8000 --prod`
  */
 
 // Ensure a "sails" can be located:
